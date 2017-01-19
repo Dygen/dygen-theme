@@ -1,18 +1,12 @@
 {
     "name": "dygen/dark-theme",
-    "description": "Dark theme for dygen",
-    "keywords": ["canvas", "theme", "dygen"],
+    "description": "Dark theme for Canvas.",
+    "keywords": ["canvas", "theme", "dark"],
     "type": "canvas-theme",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Wes Hulette",
-            "email": "jwhulette@gmail.com"
-        }
-    ],
     "extra": {
         "canvas-theme": {
-            "title": "Dygen-dark",
+            "title": "Dygen Dark",
             "directories": {
                 "public": "public",
                 "views": "resources/views"
