@@ -12,7 +12,7 @@
     ],
     "extra": {
         "canvas-theme": {
-            "title": "Dygen",
+            "title": "Dygen-dark",
             "directories": {
                 "public": "public",
                 "views": "resources/views"
