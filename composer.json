@@ -1,5 +1,5 @@
 {
-    "name": "dygen/dark",
+    "name": "dygen/dark-theme",
     "description": "Dark theme for dygen",
     "keywords": ["canvas", "theme", "dygen"],
     "type": "canvas-theme",
@@ -20,4 +20,3 @@
         }
     }
 }
-    
