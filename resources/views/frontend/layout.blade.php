@@ -8,7 +8,7 @@
         @include('canvas::frontend.partials.custom-css')
     </head>
     <body>
-        @include('layouts.guestnav')
+        @include('partials.nav')
         @include('canvas::frontend.partials.header')
         @yield('content')
         @yield('unique-js')
