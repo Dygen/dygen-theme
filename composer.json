@@ -4,6 +4,12 @@
     "keywords": ["canvas", "theme", "dark"],
     "type": "canvas-theme",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Someone",
+            "email": "someone@some.site"
+        }
+    ],
     "extra": {
         "canvas-theme": {
             "title": "Dygen Dark",
