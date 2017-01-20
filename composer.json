@@ -1,13 +1,13 @@
 {
-    "name": "dygen/dark-theme",
+    "name": "dygen/dygen-theme",
     "description": "Dark theme for Canvas.",
     "keywords": ["canvas", "theme", "dark"],
     "type": "canvas-theme",
     "license": "MIT",
     "authors": [
         {
-            "name": "Someone",
-            "email": "someone@some.site"
+            "name": "Wes Hulette",
+            "email": "jwhulette@gmail.com"
         }
     ],
     "extra": {
