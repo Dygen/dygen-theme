@@ -10,7 +10,7 @@
             </div>
         </a>
         <ul class="main-menu profile-ul">
-            <li @if (Request::is('admin/profile/*')) class="active" @endif><a href="{{ route('admin.profile.index') }}"><i class="zmdi zmdi-account"></i> Your Profile</a></li>
+            <li @if (Request::is('admin/profile/*')) class="active" @endif><a href="{{ route('canvas.admin.profile.index') }}"><i class="zmdi zmdi-account"></i> Your Profile</a></li>
             <li><a href="{{ url('logout') }}" name="logout"><i class="zmdi zmdi-power"></i> Sign out</a></li>
         </ul>
     </div>

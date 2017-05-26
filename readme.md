@@ -1,4 +1,4 @@
-<a href="http://canvas.toddaustin.io"><img src="https://raw.githubusercontent.com/cnvs/assets/master/paper-dark.jpg"></a>
+<img src="https://raw.githubusercontent.com/cnvs/assets/master/paper-dark.png">
 
 ## About Paper Dark
 

@@ -1,8 +1,8 @@
 @if(Request::is('admin/post/create'))
-    <form class="keyboard-save" role="form" method="POST" id="postCreate" action="{{ route('admin.post.store') }}">
+    <form class="keyboard-save" role="form" method="POST" id="postCreate" action="{{ route('canvas.admin.post.store') }}">
     <input type="hidden" name="user_id" value="{{ Auth::user()->id }}">
 @else
-    <form class="keyboard-save" role="form" method="POST" id="postUpdate" action="{{ route('admin.post.update', $id) }}">
+    <form class="keyboard-save" role="form" method="POST" id="postUpdate" action="{{ route('canvas.admin.post.update', $id) }}">
     <input type="hidden" name="_method" value="PUT">
     <input type="hidden" name="user_id" value="{{ $user_id }}">
 @endif

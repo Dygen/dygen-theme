@@ -20,7 +20,7 @@
                     <a data-toggle="dropdown" href=""><i class="tm-icon zmdi zmdi-more-vert"></i></a>
                     <ul class="dropdown-menu dm-icon pull-right">
                         <li class="hidden-xs">
-                            <a href="{{ route('admin.profile.index') }}"><i class="zmdi zmdi-account"></i> Your Profile</a>
+                            <a href="{{ route('canvas.admin.profile.index') }}"><i class="zmdi zmdi-account"></i> Your Profile</a>
                         </li>
                         <li class="hidden-xs">
                             <a target="_blank" href="{{ url('/') }}"><i class="zmdi zmdi-view-web"></i> View Site</a>
@@ -30,7 +30,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="{{ route('auth.logout') }}"><i class="zmdi zmdi-power"></i> Sign out</a>
+                            <a href="{{ route('canvas.auth.logout') }}"><i class="zmdi zmdi-power"></i> Sign out</a>
                         </li>
                     </ul>
                 </li>
@@ -40,7 +40,7 @@
 
 
     <!-- Top Search Content -->
-    <form role="form" method="GET" id="search" name="search" action="{{ route('admin.search.index') }}">
+    <form role="form" method="GET" id="search" name="search" action="{{ route('canvas.admin.search.index') }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <div id="top-search-wrap">
             <div class="tsw-inner">
