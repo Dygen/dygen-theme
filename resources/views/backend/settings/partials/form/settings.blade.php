@@ -54,6 +54,20 @@
 
     <div class="form-group">
         <div class="fg-line">
+            <label class="fg-label">Social Header Icons</label>
+            <select name="social_header_icons_user_id" id="social_header_icons_user_id" class="selectpicker">
+                @foreach (\Canvas\Models\User::all() as $user)
+                    <option @if ($user->id == $data['socialHeaderIconsUserId']) selected @endif value="{!! $user->id !!}">{!! $user->display_name !!}</option>
+                @endforeach
+            </select>
+        </div>
+        <small>Select the user whose social icons you would like to appear in the header of the blog.</small>
+    </div>
+
+    <br>
+
+    <div class="form-group">
+        <div class="fg-line">
             <label class="fg-label"><i class="zmdi zmdi-disqus"></i> Disqus</label>
             <input type="text" class="form-control" name="disqus_name" id="disqus_name" value="{{ $data['disqus'] }}" placeholder="Disqus Shortname">
         </div>
